@@ -26,6 +26,9 @@
     .track small { color:var(--muted); }
     .release-date { margin:22px 0 0; font-size:18px; font-weight:750; }
     .description { color:#dce2ed; margin:17px 0 0; }
+    .streaming { display:flex; flex-wrap:wrap; gap:8px; margin-top:18px; }
+    .streaming a { display:inline-block; border:1px solid var(--line); border-radius:8px; padding:7px 10px; font-size:14px; text-decoration:none; }
+    .streaming a:hover,.streaming a:focus-visible { border-color:var(--accent); color:#fff; }
     .section { margin-top:60px; }
     .videos { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:24px; }
     .video-card { min-width:0; background:var(--card); border:1px solid var(--line); border-radius:15px; overflow:hidden; }
@@ -59,39 +62,52 @@
     <h1>Jules Caesar</h1>
   </header>
 
-  <section class="hero" aria-label="Aktuelle Single">
-    <img class="cover" src="bleib-heut-bei-mir-cover.jpg" alt="Cover der Single Bleib heut bei mir" width="1536" height="1536">
+  <section class="hero" aria-label="Wir reißen die Stille entzwei">
+    <img class="cover" src="jules-caesar-cover.jpg" alt="Cover der Single Wir reißen die Stille entzwei" width="1248" height="1248">
     <div class="panel">
-      <div class="eyebrow">Neu · Jetzt erhältlich</div>
-      <div class="release-title">Bleib heut bei mir / Challenger III</div>
-      <div class="track"><div class="side">A-SEITE</div><div><strong>Bleib heut bei mir</strong><small>Power-Pop</small></div></div>
-      <div class="track"><div class="side">B-SEITE</div><div><strong>Challenger III</strong><small>Instrumentaler Garage Rock</small></div></div>
-      <p class="release-date">Veröffentlichung: November 2026</p>
-      <p class="description">Jetzt erhältlich auf Spotify, Apple Music, Amazon Music und allen gängigen Streaming-Plattformen. Demnächst auch als limitierte 7-Inch-Vinyl-Single auf Caesar’s Garage Records.</p>
-      <p><a href="https://open.spotify.com/artist/0EhVuXED2a56NgDkHQKubw">Jules Caesar auf Spotify</a> · <a href="https://music.amazon.de/tracks/B0HRKSRHT8">Challenger III auf Amazon Music</a></p>
-    </div>
-  </section>
-
-  <section class="section hero" aria-label="Kommende Single">
-    <img class="cover" src="am-ende-der-welt-cover.jpg" alt="Cover der Single Am Ende der Welt" width="1254" height="1254">
-    <div class="panel">
-      <div class="eyebrow">Coming soon · Dezember 2026</div>
-      <div class="release-title">Am Ende der Welt / Los Santos</div>
-      <div class="track"><div class="side">A-SEITE</div><div><strong>Am Ende der Welt</strong></div></div>
-      <div class="track"><div class="side">B-SEITE</div><div><strong>Los Santos</strong></div></div>
-      <p class="release-date">Geplante Veröffentlichung: Dezember 2026</p>
-    </div>
-  </section>
-
-  <section class="section hero" aria-label="Debütsingle">
-    <img class="cover" src="jules-caesar-cover.jpg" alt="Cover von Jules Caesar: Wir reißen die Stille entzwei, roter Dodge Challenger vor amerikanischem Diner" width="1248" height="1248">
-    <div class="panel">
-      <div class="eyebrow">Debütsingle · A-Seite / B-Seite</div>
+      <div class="eyebrow">Debütsingle</div>
       <div class="release-title">Wir reißen die Stille entzwei / Arizona Surf</div>
       <div class="track"><div class="side">A-SEITE</div><div><strong>Wir reißen die Stille entzwei</strong></div></div>
       <div class="track"><div class="side">B-SEITE</div><div><strong>Arizona Surf</strong><small>Instrumental</small></div></div>
       <p class="release-date">Veröffentlichung: Oktober 2026</p>
       <p class="description">Die erste Veröffentlichung von Jules Caesar verbindet energiegeladenen deutschsprachigen Power-Pop mit einem instrumentalen Ritt durch die Mojave-Wüste.</p>
+      <div class="streaming" aria-label="Streaming-Links"><a href="https://open.spotify.com/album/3Fwzx7wE1lzdp7RSRrdhVj" target="_blank" rel="noopener noreferrer">🎧 Spotify</a> <a href="https://music.apple.com/de/album/wir-rei%C3%9Fen-die-stille-entzwei-single/6828058143" target="_blank" rel="noopener noreferrer">🍎 Apple Music</a> <a href="https://music.amazon.de/albums/B0HPL9L7JQ" target="_blank" rel="noopener noreferrer">🎵 Amazon Music</a></div>
+      <div class="meta">
+        <div><span>Digital · EAN / UPC</span><strong>4071624282932</strong></div>
+        <div><span>7-Inch-Vinyl</span><strong>Caesar’s Garage Records · CGR-001</strong></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section hero" aria-label="Bleib heut bei mir">
+    <img class="cover" src="bleib-heut-bei-mir-cover.jpg" alt="Cover der Single Bleib heut bei mir" width="1536" height="1536">
+    <div class="panel">
+      <div class="eyebrow">Neu · Jetzt erhältlich</div>
+      <div class="release-title">Bleib heut bei mir / Challenger III</div>
+      <div class="track"><div class="side">A-SEITE</div><div><strong>Bleib heut bei mir</strong></div></div>
+      <div class="track"><div class="side">B-SEITE</div><div><strong>Challenger III</strong><small>Instrumental</small></div></div>
+      <p class="release-date">Veröffentlichung: November 2026</p>
+      <p class="description">Jetzt erhältlich auf Spotify, Apple Music, Amazon Music und allen gängigen Streaming-Plattformen.</p>
+      <div class="streaming" aria-label="Streaming-Links"><a href="https://open.spotify.com/track/3IAHIoUGab6nHdoD75OyYf" target="_blank" rel="noopener noreferrer">🎧 Spotify</a> <a href="https://music.apple.com/de/album/bleib-heut-bei-mir/6837320168?i=6837320170" target="_blank" rel="noopener noreferrer">🍎 Apple Music</a> <a href="https://music.amazon.de/tracks/B0HRKVKMYP" target="_blank" rel="noopener noreferrer">🎵 Amazon Music</a></div>
+      <div class="meta">
+        <div><span>Digital · EAN / UPC</span><strong>4071624334457</strong></div>
+        <div><span>7-Inch-Vinyl</span><strong>Caesar’s Garage Records · CGR-002</strong></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section hero" aria-label="Am Ende der Welt">
+    <img class="cover" src="am-ende-der-welt-cover.jpg" alt="Cover der Single Am Ende der Welt" width="1254" height="1254">
+    <div class="panel">
+      <div class="eyebrow">Coming soon</div>
+      <div class="release-title">Am Ende der Welt / Los Santos</div>
+      <div class="track"><div class="side">A-SEITE</div><div><strong>Am Ende der Welt</strong></div></div>
+      <div class="track"><div class="side">B-SEITE</div><div><strong>Los Santos</strong></div></div>
+      <p class="release-date">Geplante Veröffentlichung: Dezember 2026</p>
+      <div class="meta">
+        <div><span>Digital · EAN / UPC</span><strong>4071624370721</strong></div>
+        <div><span>7-Inch-Vinyl</span><strong>Caesar’s Garage Records · CGR-003</strong></div>
+      </div>
     </div>
   </section>
 
@@ -99,27 +115,29 @@
     <h2>Music &amp; Videos</h2>
     <div class="videos">
       <article class="video-card">
-        <video controls preload="metadata" playsinline poster="jules-caesar-cover.jpg" aria-label="Jules Caesar Promo">
-          <source src="jules-caesar-promo-final.mp4" type="video/mp4">
-          Dein Browser unterstützt die Videowiedergabe nicht.
-        </video>
-        <div class="video-info"><div class="eyebrow">A-Seite · Promo</div><h3>Wir reißen die Stille entzwei</h3></div>
-      </article>
-      <article class="video-card">
-        <video controls preload="metadata" playsinline poster="arizona-surf-cover.jpg" aria-label="Arizona Surf Promo">
-          <source src="arizona-surf-promo.mp4" type="video/mp4">
-          Dein Browser unterstützt die Videowiedergabe nicht.
-        </video>
-        <div class="video-info"><div class="eyebrow">B-Seite · Promo</div><h3>Arizona Surf</h3></div>
+        <iframe src="https://www.youtube-nocookie.com/embed/cx-F-8Fz8DU" title="Jules Caesar – Wir reißen die Stille entzwei (Official Video)" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="video-info"><div class="eyebrow">Official Video</div><h3>Wir reißen die Stille entzwei</h3><p><a href="https://youtu.be/cx-F-8Fz8DU" target="_blank" rel="noopener noreferrer">Auf YouTube ansehen</a></p></div>
       </article>
       <article class="video-card">
         <iframe src="https://www.youtube-nocookie.com/embed/ZKY3pVrjNAU" title="Jules Caesar – Arizona Surf (Garage Session)" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <div class="video-info"><div class="eyebrow">Caesar’s Garage Sessions</div><h3>Arizona Surf – Garage Session</h3><p>October 2026 · YouTube</p></div>
+        <div class="video-info"><div class="eyebrow">Garage Session</div><h3>Arizona Surf</h3><p><a href="https://youtu.be/ZKY3pVrjNAU" target="_blank" rel="noopener noreferrer">Auf YouTube ansehen</a></p></div>
+      </article>
+      <article class="video-card">
+        <iframe src="https://www.youtube-nocookie.com/embed/j1K9ZEFFvLo" title="Jules Caesar – Bleib heut bei mir (Official Audio)" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="video-info"><div class="eyebrow">Official Audio</div><h3>Bleib heut bei mir</h3><p><a href="https://youtu.be/j1K9ZEFFvLo" target="_blank" rel="noopener noreferrer">Auf YouTube ansehen</a></p></div>
+      </article>
+      <article class="video-card">
+        <iframe src="https://www.youtube-nocookie.com/embed/lmvjiS60xQ8" title="Jules Caesar – Challenger III (Official Video)" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="video-info"><div class="eyebrow">Official Video</div><h3>Challenger III</h3><p><a href="https://youtu.be/lmvjiS60xQ8" target="_blank" rel="noopener noreferrer">Auf YouTube ansehen</a></p></div>
+      </article>
+      <article class="video-card">
+        <iframe src="https://www.youtube-nocookie.com/embed/zv1Q7URD3q8" title="Jules Caesar – Wir reißen die Stille entzwei (Live in Hamburg)" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="video-info"><div class="eyebrow">Live in Hamburg</div><h3>Wir reißen die Stille entzwei</h3><p>Virtuelle Live-Session</p><p><a href="https://youtu.be/zv1Q7URD3q8" target="_blank" rel="noopener noreferrer">Auf YouTube ansehen</a></p></div>
       </article>
     </div>
   </section>
 
-  <section class="section details" aria-label="Künstler und Veröffentlichungsdaten">
+  <section class="section" aria-label="Künstlerprofil">
     <div class="panel">
       <div class="eyebrow">Artist identity</div>
       <h2>Über Jules Caesar</h2>
@@ -128,20 +146,7 @@
       <p>Musik für lange Autofahrten, offene Fenster und die Momente, in denen man einfach ein bisschen lauter dreht.</p>
       <p><strong>Spotify-Künstlerprofil:</strong><br><a href="https://open.spotify.com/artist/0EhVuXED2a56NgDkHQKubw" rel="noopener noreferrer">Jules Caesar auf Spotify</a></p>
     </div>
-    <div class="panel">
-      <div class="eyebrow">Official release details</div>
-      <h2>Veröffentlichungsdaten der Debütsingle</h2>
-      <div class="meta">
-        <div><span>Künstler</span><strong>Jules Caesar</strong></div>
-        <div><span>Label</span><strong>Caesar’s Garage · iMusician</strong></div>
-        <div><span>EAN / UPC</span><strong>4071624282932</strong></div>
-        <div><span>Katalognummer</span><strong>CGR 001</strong></div>
-        <div><span>Veröffentlichung</span><strong>Oktober 2026</strong></div>
-        <div><span>Rechteinhaber der Aufnahmen</span><strong>Jens Georg Feierabend</strong></div>
-      </div>
-    </div>
   </section>
-
   <footer>
     <strong>Kontakt / Projektverantwortlicher:</strong> Jens Georg Feierabend · Hamburg, Deutschland<br>
     E-Mail: <a href="mailto:info@jensfeierabend.com">info@jensfeierabend.com</a><br>
